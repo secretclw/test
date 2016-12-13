@@ -1,0 +1,358 @@
+*{
+	padding: 0;
+    margin: 0;
+    font-family: 'Microsoft YaHei';
+}
+header{
+	width: 100%;
+	height: 76px;
+	background-color: #FAFAFA
+}
+header .top{
+	width: 1080px;
+	height: 76px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	width: 150px;
+	height: 46px;
+	margin: 15px 0;
+	background-color: #F0F0F0;
+	line-height: 46px;
+	text-align: center;
+	color: #CF2E25;
+	font-size: 23px;
+	font-weight: bold;
+}
+.nav{
+	width: 660px;
+	float: left;
+	list-style: none;
+	margin-left: 70px;
+}
+.nav li{
+	float: left;
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+    height: 76px;
+    line-height: 76px;
+    position: relative;
+    z-index: 1000;
+}
+.nav li:hover{
+	background-color: #424242;
+	opacity: 0.9;
+}
+.nav li:hover a{
+	color: #fff;
+}
+.nav li:hover ul{
+	display: block;
+	background-color: #424242;
+	opacity: 0.9;
+}
+.nav li a{
+	color: #000;
+	text-decoration: none;
+}
+.nav li ul{
+	list-style: none;
+	display: none;
+	color: #fff;
+	overflow: hidden;
+}
+.nav li ul:hover{display: block}
+.nav li ul li{
+	height: 40px;
+	line-height: 40px;
+	border-top:1px solid #000;
+	color: #fff;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+.telephone{
+	float: right;
+	width: 180px;
+	height: 30px;
+	margin: 23px 0;
+	line-height: 30px;
+	overflow: hidden;
+}
+.icon-tel{
+	width: 30px;
+}
+.telephone span{
+	display: block;
+	line-height: 30px;
+	float: right;
+	color: #CF2E25;
+	font-size: 20px;
+	font-weight: bold;
+}
+.banner{
+	background-color: #ECECEC;
+	width: 100%;
+	height: 280px;
+	overflow: hidden;
+}
+.banner-wrap{
+	width: 1050px;
+	height: 290px;
+	margin:0 auto;
+	position: relative;
+}
+.banner-bg{
+    height: 200px;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+}
+.banner-middle{
+	height: 150px;
+    position: absolute;
+    bottom: 4px;
+    left: 281px;
+}
+.rocket{
+	height: 200px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+}
+.banner-wrap h1{
+	margin-left: 185px;
+	margin-top:10px;
+}
+.banner-wrap h1 span{
+	color:#FD7F02;
+	font-size: 70px;
+	font-style: italic;
+	margin-right: 20px;
+}
+.banner-wrap p{
+	color: #BC7744;
+    margin-top: 15px;
+    font-size: 23px;
+    text-align: center;
+}
+.introduce{
+	width: 100%;
+	height: 150px;
+}
+.section{
+	width: 960px;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.introduce .intro-title{
+	color: #E3770F;
+	text-align: center;
+	margin-top:40px;
+	margin-bottom: 25px;
+}
+.introduce p{
+	color: #797979;
+	text-indent: 30px;
+	line-height: 25px;
+}
+.section h1{
+	margin-top:40px;
+    text-align: center;
+}
+.divide{
+	width: 100%;
+	border-top:1px solid #DBDBDB;
+	margin-top:20px;
+}
+.circle{
+    width: 19px;
+    height: 19px;
+    border-radius: 100%;
+    background-color: #DBDBDB;
+    margin: -10px auto 0 auto;
+    overflow: hidden;
+}
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #fff;
+    margin: 7px auto;
+}
+.row{
+	width: 100%;
+	height: 360px;
+}
+.img-step{
+	height: 360px;
+	width: 470px;
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+.step{
+	width: 480px;
+}
+.step1-logo{
+	background:url(../img/step-num.png) no-repeat;
+	width: 160px;
+    height: 175px;
+    float: left;
+}
+.step2-logo{
+	background:url(../img/step-num.png) no-repeat -190px 0px;
+	width: 160px;
+    height: 175px;
+    float: left;
+}
+.step3-logo{
+	background:url(../img/step-num.png) no-repeat -0px -190px;
+	width: 160px;
+    height: 175px;
+    float: left;-192px 0px;
+}
+.step4-logo{
+	background:url(../img/step-num.png) no-repeat -190px -190px;
+	width: 160px;
+    height: 175px;
+    float: left;-192px 0px;
+}
+.step-title{
+	float: left;
+	color: #525252;
+	margin-top: 95px;
+}
+.step-title h1{
+    text-align: left;
+    margin-top:0;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 28px;
+}
+.step-detail{
+	float: left;
+	margin-left: 145px;
+	margin-top: 5px;
+}
+.step-list{
+	overflow: hidden;
+	list-style: none;
+}
+.step-list li{
+	line-height: 30px;
+}
+.step-list li span{
+	color: #F49802;
+	margin-right: 8px;
+}
+.step-list ul{
+	list-style: none;
+	padding-left: 20px;
+}
+.step-detail p{
+	margin-left: 15px;
+	line-height: 30px;
+}
+.gray-bg{
+	background-color: #F8F8F8
+}
+.text-center{
+	text-align: center;
+}
+.section h3{
+	color: #67B011;
+	margin-top:30px;
+}
+.func1-detail{
+    text-indent: 35px;
+    margin-top: 15px;
+}
+.func-detail2{
+	width: 560px;
+	text-indent: 25px;
+	margin-left: 10px;
+	margin-top: 50px;
+	line-height: 25px;
+	float: left;
+}
+.func-detail3{
+    width: 380px;
+	text-indent: 25px;
+	margin-left: 10px;
+	margin-top: 100px;
+	float: right;
+	line-height: 25px;
+}
+.func-detail4{
+    width: 400px;
+	text-indent: 25px;
+	margin-left: 10px;
+	margin-top: 130px;
+	float: left;
+	line-height: 25px;
+}
+.func-img2{
+	height: 330px;
+    margin-top: -45px;
+    float: right;
+    margin-right: 20px;
+}
+.func-img3{
+    width: 550px;
+    float: left;
+}
+.func-img4{
+    width: 550px;
+    float: right;
+}
+.black-bg{
+	background-color: #323232
+}
+.friend-link{
+	color: #ECECEC;
+	padding:20px 0;
+	margin-top: 70px;
+}
+.friend-link h4{
+	font-weight: normal;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.friend-link a{
+	color: #ECECEC;
+	text-decoration: none;
+}
+.link-list {
+	list-style: none;
+	overflow: hidden
+}
+.link-list li{
+	width: 100px;
+	float: left;
+	line-height: 35px;
+	margin-right: 20px;
+}
+footer{
+	background-color: #3B3B3B;
+	padding-top:15px;
+	padding-bottom: 40px;
+	color: #ECECEC;
+	text-align: center;
+	line-height: 35px;
+}
+footer a{
+	color: #ECECEC;
+	text-decoration: none;
+}
